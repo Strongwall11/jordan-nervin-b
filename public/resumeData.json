@@ -1,0 +1,206 @@
+{
+  "main": {
+    "name": "Jordan Nervin",
+    "occupation": "Full Stack and Blockchain Developer",
+    "description": "",
+    "image": "profilepic.jpg",
+    "bio": "I am a highly focused Full Stack Blockchain and Web developer with 6 years of experience in a variety of development projects. Organized, methodical and a keen eye for detail results in solid coding and trustworthy program. Understanding requirements and communicating the progress of projects are core values in achieving long lasting business relationships.I provide Blockchain, Cryptocurrency, Front-End, Back-End and also user-friendly web solutions. I am completely committed not only to provide basic services, but also doing everything possible to get your business growing explosively. I will provide you great solution as per your expectation. My goal is that I want each of our Customers to be completely satisfied.",
+    "contactmessage": "Have a project for me? Think I'd be a good fit for your team? I'd love to hear from you, give me a shout by email or by using the form below if you'd like to get in contact with me.",
+    "Warning": " Warning: Contact form not yet configured, please contact me via normal email for now",
+    "email": "strongwall11@gmail.com",
+    "phone": "(+1) 559 588 4242",
+    "telegram": "https://t.me/StrongWall11",
+    "skype":"live:.cid.88989dcc83cc6709",
+    "address": {
+      "street": "2475 Dufferin Street",
+      "city": "Toronto",
+      "state": "Ontario",
+      "zip": "M6H 4B6"
+    },
+    "website": "http://www.Jordan.com",
+    "resumedownload": "http://Jordan.com",
+    "social": [
+      {
+        "name": "facebook",
+        "url": "http://facebook.com/",
+        "className": "fa fa-facebook"
+      },
+      {
+        "name": "twitter",
+        "url": "http://twitter.com",
+        "className": "fa fa-twitter"
+      },
+      {
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/",
+        "className": "fa fa-linkedin"
+      },
+      {
+        "name": "instagram",
+        "url": "http://instagram.com/",
+        "className": "fa fa-instagram"
+      },
+      {
+        "name": "github",
+        "url": "http://github.com/kryptify",
+        "className": "fa fa-github"
+      }
+    ]
+  },
+  "resume": {
+    "skillmessage": "I have skills with Full Stack and Blockchain etc.",
+    "education": [
+      {
+        "school": "University of Toronto",
+        "degree": "Bachelor of Computer Science, Software Engineering Option",
+        "graduated": "April 2014",
+        "description": "Here I took my Bachelors of Computer Science with a Software Engineering Specialty and achieved a much more thorough education in the underlying theory, concepts, and science behind more complex programming. It was here that I discovered my passion for scalable application programming (web and mobile), the security behind computer and application systems, and found that I have a knack for understanding complex algorithms."
+      },
+      {
+        "school": "Grande Prairie Regional College",
+        "degree": "Computer System Technology",
+        "graduated": "March 2010",
+        "description": " I studied Computer Systems Technology, a 2 year lead-in to a Bachelors of Computer Science. This was a very hands-on experience focused more on building projects than general theory. Here I built database structures for fictional companies, created small video games, hand-coded Space Invaders from scratch in Assembly Language, built and coded an Arduino Robot to navigate obstacle courses, a lot of Java and C++ programming for data structures, and much more."
+      }
+    ],
+    "work": [
+      {
+        "company": "PURPLE SALES",
+        "title": "Full Stack Blockchain Developer ",
+        "years": "March 2018 - Present",
+        "description1": "- Managed both back-end and front-end aspects of development process.",
+        "description2": "- Completed code debugging and implemented fixes to resolve problems based on priority system. ",
+        "description3": "- Developed/Enhanced new pages with fixing current issues in frontend (react.js + next.js) ",
+        "description4": "- Dapps/ DEFI platform for Staking / Yield farm / Lending & borrowing system / NFT marketplace / Crypto Game(play to earn), DAO, DEX fork, Auto trading Bot / Snipping Bot(Front-run, Arbitrage) "
+      },
+      {
+        "company": "GAM TECH",
+        "title": "Full Stack Developer ",
+        "years": "March 2016 - February 2018",
+        "description1": "I’ve built Mobile Applications, Ecommerce website, real estate website, Education website, Betting Website, Job website, and so on… Completed course on front-end web development that involved deploying real interactive apps that make API calls and fetch data based on user input. Also involved functional programming and game development in client side applications."
+      },
+      {
+        "company": "F12.NET",
+        "title": "UI/UX Designer and Software Developer ",
+        "years": "April 2014 - February 2016",
+        "description1": "- I worked in Artificial Intelligence, custom software development, enterprise app modernization.",
+        "description2": "- Done lots of Research tasks given by my Boss.",
+        "description3": "- Done various website design with Html and CSS."
+      }
+    ],
+    "skills": [
+      {
+        "name": "GIT",
+        "level": "80%"
+      },
+      {
+        "name": "REACT",
+        "level": "90%"
+      },
+      {
+        "name": "BLOCKCHAIN",
+        "level": "80%"
+      },
+      {
+        "name": "NODEJS",
+        "level": "80%"
+      },
+      {
+        "name": "HTML5",
+        "level": "95%"
+      },
+      {
+        "name": "CSS",
+        "level": "90%"
+      },
+      {
+        "name": "JavaScript",
+        "level": "80%"
+      },
+      {
+        "name": "WEB3",
+        "level": "80%"
+      },
+      {
+        "name": "VueJs",
+        "level": "50%"
+      },
+      {
+        "name": "PYTHON",
+        "level": "80%"
+      },
+      {
+        "name": "MongoDB",
+        "level": "85%"
+      },
+      {
+        "name": "SQL",
+        "level": "70%"
+      }
+    ]
+  },
+  "portfolio": {
+    "projects": [
+      {
+        "title": "Peaceswap",
+        "category": "Pancakeswap fork",
+        "image": "peaceswap.PNG",
+        "url": "https://peaceswap.com"
+      },
+      {
+        "title": "Ecodollar",
+        "category": "EcoDollar is classified as a crypto payment token.",
+        "image": "ecodollar.PNG",
+        "url": "https://ecodollar.org/"
+      },
+      {
+        "title": "Crypstarter",
+        "category": "Olympus DAO fork",
+        "image": "crypstarter.PNG",
+        "url": "http://app.crypstarter.finance/"
+      },
+      {
+        "title": "Mtvpunks",
+        "category": "MTV punk NFT site",
+        "image": "mtvpunks.PNG",
+        "url": "https://mtvpunks.com"
+      },
+      {
+        "title": "Luuna",
+        "category": "Ecommerce system",
+        "image": "luuna.PNG",
+        "url": "https://luuna.mx/"
+      },
+      {
+        "title": "Medabots",
+        "category": "Play and earn NFT game",
+        "image": "medabots.PNG",
+        "url": "https://medabots.game/"
+      },
+      {
+        "title": "Pliantinc",
+        "category": "Ecommerce with Wordpress",
+        "image": "pliantinc.PNG",
+        "url": "http://www.pliantinc.com/"
+      },
+      {
+        "title": "Resume",
+        "category": "My resume with React template",
+        "image": "resume.PNG",
+        "url": "#"
+      }
+    ]
+  },
+  "testimonials": {
+    "testimonials": [
+      {
+        "text": "I have had the opportunity to work with Jordan on multiple occasions which has always been a pleasure. He is driven and motivated with a consistently positive attitude. Tim excels at communicating with others and is always willing to work hard until he solves the problem at hand.",
+        "user": "Kareem Abdul Jabbar"
+      },
+      {
+        "text": "That Jordan Nervin must be one of the most brilliant developers I've ever met! It is amazing that nobody has hired him yet. Hey you, you should hire this guy, he may be fresh out of University and have zero on the job experience but I am confident that he will be one of your best developers in no time!",
+        "user": "Steve Wozniak... impersonator"
+      }
+    ]
+  }
+}
