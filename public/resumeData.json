@@ -4,7 +4,7 @@
     "occupation": "Full Stack and Blockchain Developer",
     "description": "",
     "image": "profilepic.jpg",
-    "bio": "I am a highly focused Full Stack Blockchain and Web developer with 6 years of experience in a variety of development projects. Organized, methodical and a keen eye for detail results in solid coding and trustworthy program. Understanding requirements and communicating the progress of projects are core values in achieving long lasting business relationships.I provide Blockchain, Cryptocurrency, Front-End, Back-End and also user-friendly web solutions. I am completely committed not only to provide basic services, but also doing everything possible to get your business growing explosively. I will provide you great solution as per your expectation. My goal is that I want each of our Customers to be completely satisfied.",
+    "bio": "I am a highly focused Full Stack and Blockchain developer with 6 years of experience in a variety of development projects. Organized, methodical and a keen eye for detail results in solid coding and trustworthy program. Understanding requirements and communicating the progress of projects are core values in achieving long lasting business relationships.I provide Front-End, Back-End, Blockchain technology and also user-friendly web solutions. I am completely committed not only to provide basic services, but also doing everything possible to get your business growing explosively. I will provide you great solution as per your expectation. My goal is that I want each of our Customers to be completely satisfied.",
     "contactmessage": "Have a project for me? Think I'd be a good fit for your team? I'd love to hear from you, give me a shout by email or by using the form below if you'd like to get in contact with me.",
     "Warning": " Warning: Contact form not yet configured, please contact me via normal email for now",
     "email": "strongwall11@gmail.com",
@@ -12,13 +12,13 @@
     "telegram": "https://t.me/StrongWall11",
     "skype":"live:.cid.88989dcc83cc6709",
     "address": {
-      "street": "2475 Dufferin Street",
+      "street": "4251 Victoria Park Ave",
       "city": "Toronto",
       "state": "Ontario",
-      "zip": "M6H 4B6"
+      "zip": "M2J 3T7"
     },
-    "website": "http://www.Jordan.com",
-    "resumedownload": "http://Jordan.com",
+    "website": "https://jordan-nervin-b.herokuapp.com",
+    "resumedownload": "https://drive.google.com/file/d/1jU0GL7PB3q91E47WiYHeOGJKjNQtv9mH/view?usp=sharing",
     "social": [
       {
         "name": "facebook",
@@ -52,7 +52,7 @@
     "education": [
       {
         "school": "University of Toronto",
-        "degree": "Bachelor of Computer Science, Software Engineering Option",
+        "degree": "Bachelor of Computer Science, Software Engineering",
         "graduated": "April 2014",
         "description": "Here I took my Bachelors of Computer Science with a Software Engineering Specialty and achieved a much more thorough education in the underlying theory, concepts, and science behind more complex programming. It was here that I discovered my passion for scalable application programming (web and mobile), the security behind computer and application systems, and found that I have a knack for understanding complex algorithms."
       },
@@ -65,24 +65,24 @@
     ],
     "work": [
       {
-        "company": "PURPLE SALES",
-        "title": "Full Stack Blockchain Developer ",
-        "years": "March 2018 - Present",
+        "company": "SWITCH CREATIVE SOLUTIONS INC.",
+        "title": "Full Stack and Blockchain Developer ",
+        "years": "August 2017 - January 2022",
         "description1": "- Managed both back-end and front-end aspects of development process.",
         "description2": "- Completed code debugging and implemented fixes to resolve problems based on priority system. ",
         "description3": "- Developed/Enhanced new pages with fixing current issues in frontend (react.js + next.js) ",
         "description4": "- Dapps/ DEFI platform for Staking / Yield farm / Lending & borrowing system / NFT marketplace / Crypto Game(play to earn), DAO, DEX fork, Auto trading Bot / Snipping Bot(Front-run, Arbitrage) "
       },
       {
-        "company": "GAM TECH",
+        "company": "CONVRTX",
         "title": "Full Stack Developer ",
-        "years": "March 2016 - February 2018",
+        "years": "February 2015 - June 2017",
         "description1": "I’ve built Mobile Applications, Ecommerce website, real estate website, Education website, Betting Website, Job website, and so on… Completed course on front-end web development that involved deploying real interactive apps that make API calls and fetch data based on user input. Also involved functional programming and game development in client side applications."
       },
       {
-        "company": "F12.NET",
-        "title": "UI/UX Designer and Software Developer ",
-        "years": "April 2014 - February 2016",
+        "company": "OPENCONCEPT CONSULTING INC.",
+        "title": "Software Engineer and Web Site Designer",
+        "years": "May 2014 - January 2015",
         "description1": "- I worked in Artificial Intelligence, custom software development, enterprise app modernization.",
         "description2": "- Done lots of Research tasks given by my Boss.",
         "description3": "- Done various website design with Html and CSS."
