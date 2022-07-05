@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { FaTelegram, FaSkype, FaDiscord, FaEnvelope, FaGithub } from "react-icons/fa";
 
 class Header extends Component {
   render() {
@@ -38,8 +39,59 @@ class Header extends Component {
             <br/>
             <h2>{description}</h2>
             <hr />
+            <hr />
+            <br/>
             <ul className="social">
-               {networks}
+            <li className="social-icons">
+              <a
+                href="https://t.me/StrongWall11"
+                style={{ color: "white" }}
+                target="_blank" 
+                rel="noopener noreferrer"
+              >
+                <FaTelegram />
+              </a>
+              </li>
+              <li className="social-icons">
+              <a
+                href="https://join.skype.com/invite/ykeXwEJFz2AR"
+                style={{ color: "white" }}
+                target="_blank" 
+                rel="noopener noreferrer"
+              >
+                <FaSkype />
+              </a>
+              </li>
+              <li className="social-icons">
+              <a
+                href="https://discord.com/Shiny Comet#4705"
+                style={{ color: "white" }}
+                target="_blank" 
+                rel="noopener noreferrer"
+              >
+                <FaDiscord />
+              </a>
+              </li>
+              <li className="social-icons">
+              <a
+                href="strongwall11@gmail.com"
+                style={{ color: "white" }}
+                target="_blank" 
+                rel="noopener noreferrer"
+              >
+                <FaEnvelope />
+              </a>
+            </li>
+              <li className="social-icons">
+              <a
+                href="https://github.com/kryptify"
+                style={{ color: "white" }}
+                target="_blank" 
+                rel="noopener noreferrer"
+              >
+                <FaGithub />
+              </a>
+            </li>
             </ul>
          </div>
       </div>
