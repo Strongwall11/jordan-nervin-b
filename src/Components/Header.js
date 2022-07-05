@@ -64,7 +64,7 @@ class Header extends Component {
               </li>
               <li className="social-icons">
               <a
-                href="https://discord.com/Shiny Comet#4705"
+                href="https://discord.com/ElevenApple#3617"
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"
