@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Type from "./HeaderType";
 import { FaTelegram, FaSkype, FaDiscord, FaEnvelope, FaGithub } from "react-icons/fa";
 
 class Header extends Component {
@@ -25,7 +26,7 @@ class Header extends Component {
          <ul id="nav" className="nav"><h4>
             <li className="current"><a className="smoothscroll" href="#home">Home</a></li>
             <li><a className="smoothscroll" href="#about">About</a></li>
-	         <li><a className="smoothscroll" href="#resume">Resume</a></li>
+	          <li><a className="smoothscroll" href="#resume">Resume</a></li>
             <li><a className="smoothscroll" href="#portfolio">Works</a></li>
             <li><a className="smoothscroll" href="#testimonials">Testimonials</a></li>
             <li><a className="smoothscroll" href="#contact">Contact</a></li></h4>
@@ -34,19 +35,15 @@ class Header extends Component {
       </nav>
       <div className="row banner">
          <div className="banner-text">
-            <h1 className="responsive-headline">I'm {name}.</h1>
-            <h2>I'm a {city} based <span>{occupation}</span></h2>
-            <br/>
-            <h2>{description}</h2>
-            <hr />
-            <hr />
-            <br/>
+            <h1 className="responsive-headline"><i>{name}</i></h1>
+            <div className='typing-effect'>
+                <Type />
+            </div>
             <ul className="social">
             <li className="social-icons">
               <a
                 href="https://t.me/StrongWall11"
-                style={{ color: "white" }}
-                target="_blank" 
+                target="_blank"
                 rel="noopener noreferrer"
               >
                 <FaTelegram />
@@ -55,8 +52,7 @@ class Header extends Component {
               <li className="social-icons">
               <a
                 href="https://join.skype.com/invite/ykeXwEJFz2AR"
-                style={{ color: "white" }}
-                target="_blank" 
+                target="_blank"
                 rel="noopener noreferrer"
               >
                 <FaSkype />
@@ -65,8 +61,7 @@ class Header extends Component {
               <li className="social-icons">
               <a
                 href="https://discord.com/ElevenApple#3617"
-                style={{ color: "white" }}
-                target="_blank" 
+                target="_blank"
                 rel="noopener noreferrer"
               >
                 <FaDiscord />
@@ -75,8 +70,7 @@ class Header extends Component {
               <li className="social-icons">
               <a
                 href="strongwall11@gmail.com"
-                style={{ color: "white" }}
-                target="_blank" 
+                target="_blank"
                 rel="noopener noreferrer"
               >
                 <FaEnvelope />
@@ -85,8 +79,7 @@ class Header extends Component {
               <li className="social-icons">
               <a
                 href="https://github.com/kryptify"
-                style={{ color: "white" }}
-                target="_blank" 
+                target="_blank"
                 rel="noopener noreferrer"
               >
                 <FaGithub />

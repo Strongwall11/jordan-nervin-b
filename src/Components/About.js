@@ -43,12 +43,11 @@ class About extends Component {
                      <span><i className="fa fa-adjust" style={{"margin-right": "7px"}}></i>Skype link : {skype}</span>
 					   </p>
                </div>
-               <div className="columns download">
+            </div>
+            <div className="download">
                   <p>
                      <a href={resumeDownload} className="button" target="_blank"><i className="fa fa-download"></i>Download Resume</a>
-                     <a href={website} className="button" target="_blank"><i className="fa fa-adjust"></i>My website</a>
                   </p>
-               </div>
             </div>
          </div>
       </div>
