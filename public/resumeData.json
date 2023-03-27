@@ -193,7 +193,7 @@
       {
         "title": "Practiceplaygrow",
         "category": "Education web site",
-        "image": "practiceplaygrow.PNG",
+        "image": "practiceplaygrow.png",
         "url": "https://practiceplaygrow.com/"
       },
       {
@@ -217,7 +217,7 @@
       {
         "title": "CYOP",
         "category": "Crypto investment protocol website",
-        "image": "cyop.PNG",
+        "image": "cyop.png",
         "url": "https://cyop.io"
       },
       {
@@ -247,7 +247,7 @@
       {
         "title": "Resume",
         "category": "My resume with React template",
-        "image": "resume.PNG",
+        "image": "resume.png",
         "url": "#"
       }
     ]
