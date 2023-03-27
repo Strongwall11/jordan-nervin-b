@@ -6,7 +6,9 @@ class About extends Component {
     if(this.props.data){
       var name = this.props.data.name;
       var profilepic= "images/"+this.props.data.image;
-      var bio = this.props.data.bio;
+      var bio = this.props.data.bio.map(function(bio) {
+         return <div className='text-align'>{bio.bio}</div>
+      });
       var street = this.props.data.address.street;
       var city = this.props.data.address.city;
       var state = this.props.data.address.state;
@@ -27,20 +29,18 @@ class About extends Component {
          </div>
          <div className="nine columns main-col">
             <h2>About Me</h2>
-
-            <p>{bio}</p>
+            <div>{bio}</div>
+            <br/>
             <div className="row">
                <div className="columns contact-details">
                   <h2>Contact Details</h2>
                   <p className="address">
-						   <span>{name}</span><br />
-						   <span>{street}<br />
-						         {city} {state}, {zip}
-                   </span><br />
-						   <span><i className="fa fa-adjust" style={{"margin-right": "7px"}}></i>Phone Number : {phone}</span><br />
-                     <span><i className="fa fa-adjust" style={{"margin-right": "7px"}}></i>Email : {email}</span><br/>
-                     <span><i className="fa fa-adjust" style={{"margin-right": "7px"}}></i>Telegram link : {telegram}</span><br/>
-                     <span><i className="fa fa-adjust" style={{"margin-right": "7px"}}></i>Skype link : {skype}</span>
+						   <span><i className="icon fa fa-road" style={{"margin-right": "7px"}}></i>Street : {street}</span><br />
+						   <span><i className="icon fa fa-map-marker" style={{"margin-right": "7px"}}></i>Location : {city} {state} {zip}</span><br />
+						   <span><i className="icon fa fa-phone" style={{"margin-right": "7px"}}></i>Phone Number : {phone}</span><br />
+                     <span><i className="icon fa fa-envelope-o" style={{"margin-right": "7px"}}></i>Email : {email}</span><br/>
+                     <span><i className="icon fa fa-location-arrow" style={{"margin-right": "7px"}}></i>Telegram link : {telegram}</span><br/>
+                     <span><i className="icon fa fa-skype" style={{"margin-right": "7px"}}></i>Skype link : {skype}</span>
 					   </p>
                </div>
             </div>

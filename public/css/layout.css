@@ -228,7 +228,8 @@ ul#nav li.current a { color: #13e652; }
    margin-top: 30px;
    border-radius: 100%;
 }
-#about .contact-details { width: 61.66667%; }
+#about .contact-details { width: 100%; }
+#about .contact-details .icon { min-width: 20px; }
 #about .download {
    width: 38.33333%;
    padding-top: 6px;
@@ -245,6 +246,9 @@ ul#nav li.current a { color: #13e652; }
 #about .download .button i {
    margin-right: 15px;
    font-size: 20px;
+}
+#about .text-align {
+   text-align: justify;
 }
 
 
@@ -275,7 +279,7 @@ ul#nav li.current a { color: #13e652; }
    font: 25px/30px 'opensans-bold', sans-serif;
 }
 
-#resume .header-col { padding-top: 9px; }
+#resume .header-col { padding-top: 9px; min-height: 0px;}
 #resume .main-col { padding-right: 10%; }
 
 .education, .work {
@@ -341,93 +345,8 @@ ul#nav li.current a { color: #13e652; }
    line-height: 42px;
    border-radius: 3px 0 0 3px;
 }
-/*
-.git {
-  	-moz-animation: git 2s ease;
-  	-webkit-animation: git 2s ease;
-}
-.illustrator {
-  	-moz-animation: illustrator 2s ease;
-  	-webkit-animation: illustrator 2s ease;
-}
-.reactjs {
-  	-moz-animation: reactjs 2s ease;
-  	-webkit-animation: reactjs 2s ease;
-}
-.css {
-  	-moz-animation: css 2s ease;
-  	-webkit-animation: css 2s ease;
-}
-.html5 {
-  	-moz-animation: html5 2s ease;
-  	-webkit-animation: html5 2s ease;
-}
-.vuejs {
-  	-moz-animation: vuejs 2s ease;
-  	-webkit-animation: vuejs 2s ease;
-}
-.mongodb {
-  	-moz-animation: mongodb 2s ease;
-  	-webkit-animation: mongodb 2s ease;
-}
-
-@-moz-keyframes git {
-  0%   { width: 0px;  }
-  100% { width: 60%;  }
-}
-@-moz-keyframes illustrator {
-  0%   { width: 0px;  }
-  100% { width: 55%;  }
-}
-@-moz-keyframes reactjs {
-  0%   { width: 0px;  }
-  100% { width: 50%;  }
-}
-@-moz-keyframes css {
-  0%   { width: 0px;  }
-  100% { width: 90%;  }
-}
-@-moz-keyframes html5 {
-  0%   { width: 0px;  }
-  100% { width: 80%;  }
-}
-@-moz-keyframes vuejs {
-  0%   { width: 0px;  }
-  100% { width: 50%;  }
-}
-@-moz-keyframes mongodb {
-  0%   { width: 0px;  }
-  100% { width: 80%;  }
-}
-
-@-webkit-keyframes photoshop {
-  0%   { width: 0px;  }
-  100% { width: 60%;  }
-}
-@-webkit-keyframes illustrator {
-  0%   { width: 0px;  }
-  100% { width: 55%;  }
-}
-@-webkit-keyframes reactjs {
-  0%   { width: 0px;  }
-  100% { width: 50%;  }
-}
-@-webkit-keyframes css {
-  0%   { width: 0px;  }
-  100% { width: 90%;  }
-}
-@-webkit-keyframes html5 {
-  0%   { width: 0px;  }
-  100% { width: 80%;  }
-}
-@-webkit-keyframes vuejs {
-  0%   { width: 0px;  }
-  100% { width: 50%;  }
-}
-@-webkit-keyframes mongodb {
-  0%   { width: 0px;  }
-  100% { width: 80%;  }
-}  */
+.skill p {text-align: center; margin-bottom: 30px;}
+.skill-item {min-height: 50px; margin-bottom: 30px;}
 
 /* ------------------------------------------------------------------ */
 /* e. Portfolio Section
@@ -511,7 +430,7 @@ ul#nav li.current a { color: #13e652; }
 .portfolio-item .item-wrap img {
    vertical-align: bottom;
 }
-.portfolio-item .portfolio-item-meta { padding: 18px }
+.portfolio-item .portfolio-item-meta { padding: 18px; min-height: 150px;}
 .portfolio-item .portfolio-item-meta h5 {
    font: 14px/21px 'opensans-bold', sans-serif;
    color: #fff;
@@ -673,7 +592,7 @@ call-to-action .button {
    overflow: hidden;
 }
 #testimonials .text-container {
-   padding-top: 96px;
+   padding-top: 80px;
    padding-bottom: 66px;
 }
 #testimonials h1 {
@@ -697,17 +616,17 @@ call-to-action .button {
 
 /*	Blockquotes */
 #testimonials blockquote {
-   margin: 0 0px 30px 0px;
+   margin: 25px 0px 0px 0px;
    padding-left: 0;
    position: relative;
-   text-shadow: 0px 1px 3px rgba(0, 0, 0, 1);
+   text-shadow: 0px 1px 3px rgb(0, 0, 0);
 }
 #testimonials blockquote:before { content: none; }
 #testimonials blockquote p {
    font-family: 'librebaskerville-italic', serif;
    padding: 0;
    font-size: 24px;
-   line-height: 48px;
+   line-height: normal;
    color: #fff
 }
 #testimonials blockquote cite {
@@ -863,7 +782,7 @@ call-to-action .button {
    color: #EBEEEE;
 	display: inline-block;
 	float: left;
-   width: 26%;
+   width: 20%;
 }
 #contact input,
 #contact textarea,
@@ -876,7 +795,7 @@ call-to-action .button {
 	outline: none;
    font-size: 15px;
    line-height: 24px;
-   width: 65%;
+   width: 80%;
 }
 #contact input:focus,
 #contact textarea:focus,
@@ -894,7 +813,8 @@ call-to-action .button {
    height: auto;
    display: inline-block;
 	border-radius: 3px;
-   margin-left: 26%;
+   margin-left: 20%;
+
 }
 #contact button.submit:hover {
 	color: #0D0D0D;

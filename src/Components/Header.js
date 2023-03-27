@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Type from "./HeaderType";
-import { FaTelegram, FaSkype, FaDiscord, FaEnvelope, FaGithub } from "react-icons/fa";
+import { FaTelegram, FaSkype, FaDiscord, FaEnvelope, FaLinkedin } from "react-icons/fa";
 
 class Header extends Component {
   render() {
@@ -21,7 +21,7 @@ class Header extends Component {
       <nav id="nav-wrap">
 
          <a className="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
-	      <a className="mobile-btn" href="#home" title="Hide navigation">Hide navigation</a>
+	       <a className="mobile-btn" href="#home" title="Hide navigation">Hide navigation</a>
 
          <ul id="nav" className="nav"><h4>
             <li className="current"><a className="smoothscroll" href="#home">Home</a></li>
@@ -69,8 +69,7 @@ class Header extends Component {
               </li>
               <li className="social-icons">
               <a
-                href="strongwall11@gmail.com"
-                target="_blank"
+                href="mailto:jordannervin.ele@gmail.com"
                 rel="noopener noreferrer"
               >
                 <FaEnvelope />
@@ -78,11 +77,11 @@ class Header extends Component {
             </li>
               <li className="social-icons">
               <a
-                href="https://github.com/kryptify"
+                href="https://linkedin.com/in/jordannervin-talent"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <FaGithub />
+                <FaLinkedin />
               </a>
             </li>
             </ul>

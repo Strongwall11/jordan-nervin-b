@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { FaTelegram, FaSkype, FaDiscord, FaEnvelope, FaGithub } from "react-icons/fa";
+import { FaTelegram, FaSkype, FaDiscord, FaEnvelope, FaLinkedin, FaLink } from "react-icons/fa";
 
 class Footer extends Component {
   render() {
@@ -38,7 +38,8 @@ class Footer extends Component {
               </li>
               <li className="social-icons">
               <a
-                href="https://discord.com/Shiny Comet#4705"
+                href="https://discord.com/ElevenApple#3617
+                "
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"
@@ -48,7 +49,7 @@ class Footer extends Component {
               </li>
               <li className="social-icons">
               <a
-                href="strongwall11@gmail.com"
+                href="mailto:jordannervin.ele@gmail.com"
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"
@@ -58,18 +59,18 @@ class Footer extends Component {
             </li>
               <li className="social-icons">
               <a
-                href="https://github.com/kryptify"
+                href="https://linkedin.com/in/jordannervin-talent"
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"
               >
-                <FaGithub />
+                <FaLinkedin />
               </a>
             </li>
            </ul>
 
            <ul className="copyright">
-              <li>&copy; Copyright 2022 Jordan Nervin</li>
+              <li>&copy; Copyright 2023 Jordan Nervin</li>
               <li>Design by <a title="Styleshout" href="http://www.styleshout.com/" target="_blank">Styleshout</a></li>
            </ul>
 

@@ -1,24 +1,29 @@
 {
   "main": {
     "name": "Jordan Nervin",
-    "occupation": "Full Stack and Blockchain Developer",
+    "occupation": "Seinor Full Stack Developer",
     "description": "",
     "image": "profilepic.jpg",
-    "bio": "I am a highly focused Full Stack and Blockchain developer with 6 years of experience in a variety of development projects. Organized, methodical and a keen eye for detail results in solid coding and trustworthy program. Understanding requirements and communicating the progress of projects are core values in achieving long lasting business relationships.I provide Front-End, Back-End, Blockchain technology and also user-friendly web solutions. I am completely committed not only to provide basic services, but also doing everything possible to get your business growing explosively. I will provide you great solution as per your expectation. My goal is that I want each of our Customers to be completely satisfied.",
+    "bio": [
+      {"bio": "As a senior Full Stack developer, I bring a wealth of experience and expertise to the table. With a strong background in both Front-end and Back-end development, I have a deep understanding of how to build robust, scalable web and mobile applications that can handle complex workflows and data processing."},
+      {"bio": "I am proficient in programming languages such as JavaScript, Python and SQL, and have rich experience in developing applications using frameworks such as React, React Native, Next.js, Django and Node.js."},
+      {"bio": "At the same time, I'm also well-versed in Blockchain technology and its potential to transform industries across the board. From creating smart contracts to developing decentralized applications, I'm passionate about leveraging Blockchain to create more transparent, secure, and efficient systems."},
+      {"bio": "In my work, I prioritize a collaborative, iterative approach, always seeking feedback and looking for ways to improve my code and my process. Whether I'm working with a team or taking on solo projects, I strive to deliver high-quality results that exceed expectations and drive real business value."}
+    ],
     "contactmessage": "Have a project for me? Think I'd be a good fit for your team? I'd love to hear from you, give me a shout by email or by using the form below if you'd like to get in contact with me.",
     "Warning": " Warning: Contact form not yet configured, please contact me via normal email for now",
-    "email": "strongwall11@gmail.com",
-    "phone": "(+1) 213 260 3896",
+    "email": "jordannervin.ele@gmail.com",
+    "phone": "+1 276 243 4509",
     "telegram": "https://t.me/StrongWall11",
     "skype":"live:.cid.88989dcc83cc6709",
     "address": {
-      "street": "4251 Victoria Park Ave",
-      "city": "Toronto",
+      "street": "2465 Carling Avenue",
+      "city": "Ottawa",
       "state": "Ontario",
-      "zip": "M2J 3T7"
+      "zip": "K1Z 7B5"
     },
-    "website": "https://jordan-nervin.herokuapp.com",
-    "resumedownload": "https://drive.google.com/file/d/1-73xKb4yu6smYq8-sc7RoVSDjreLeJIw/view?usp=sharing",
+    "website": "https://jordan-nervin.web.app",
+    "resumedownload": "https://drive.google.com/file/d/1mSX1V6CmFbTrOflp5VOncFeckCUsnXVI/view?usp=share_link",
     "social": [
       {
         "name": "facebook",
@@ -48,44 +53,76 @@
     ]
   },
   "resume": {
-    "skillmessage": "I have skills with Full Stack and Blockchain etc.",
-    "education": [
+    "skillmessage": "Here is my major skills",
+    "education":
       {
-        "school": "University of Toronto",
-        "degree": "Bachelor of Computer Science, Software Engineering",
-        "graduated": "April 2014",
-        "description": "Here I took my Bachelors of Computer Science with a Software Engineering Specialty and achieved a much more thorough education in the underlying theory, concepts, and science behind more complex programming. It was here that I discovered my passion for scalable application programming (web and mobile), the security behind computer and application systems, and found that I have a knack for understanding complex algorithms."
+        "school": "Chiba University",
+        "degree": "Bachelor's Degree of Computer Science",
+        "graduated": "April 2013",
+        "description": "Here I took my Bachelors of Computer Science with a Software Engineering Specialty and achieved a much more thorough education in the underlying theory, concepts, and science behind more complex programming. It was here that I discovered my passion for scalable application programming (web and mobile), the security behind computer and application systems, and found that I have a knack for understanding complex algorithms.",
+        "study": [
+          {"study": "- Computer Science Fundamentals"},
+          {"study": "- Object-Oriented Programming"},
+          {"study": "- Data Structures and Algorithms"},
+          {"study": "- Database Management Systems"},
+          {"study": "- Software Engineering"},
+          {"study": "- Operating Systems"},
+          {"study": "- Computer Networks"},
+          {"study": "- Artificial Intelligence"},
+          {"study": "- Human-Computer Interaction"}
+        ]
       },
-      {
-        "school": "Grande Prairie Regional College",
-        "degree": "Computer System Technology",
-        "graduated": "March 2010",
-        "description": " I studied Computer Systems Technology, a 2 year lead-in to a Bachelors of Computer Science. This was a very hands-on experience focused more on building projects than general theory. Here I built database structures for fictional companies, created small video games, hand-coded Space Invaders from scratch in Assembly Language, built and coded an Arduino Robot to navigate obstacle courses, a lot of Java and C++ programming for data structures, and much more."
-      }
-    ],
     "work": [
       {
-        "company": "SWITCH CREATIVE SOLUTIONS INC.",
+        "title": "Senior Full Stack Developer",
+        "company": "Tintash",
+        "years": "Feb 2022 - Feb 2023",
+        "description1": "- Led the development of a content management system (CMS) using React.js, Node.js, and MySQL, enabling content creators to easily publish and manage articles, videos, and other multimedia content.",
+        "description2": "- Worked with cross-functional teams to integrate third-party APIs and services, including payment gateways and shipping providers.",
+        "description3": "- Developed and maintained a high-performance, low-latency back-end system using Node.js, Express, and MongoDB, capable of handling millions of transactions per day.",
+        "description4": "- Implemented a continuous integration/continuous deployment (CI/CD) pipeline using Travis and Jenkins, ensuring fast and reliable deployment of new features and updates."
+      },
+      {
         "title": "Full Stack and Blockchain Developer ",
-        "years": "August 2017 - January 2022",
-        "description1": "- Managed both back-end and front-end aspects of development process.",
-        "description2": "- Completed code debugging and implemented fixes to resolve problems based on priority system. ",
-        "description3": "- Developed/Enhanced new pages with fixing current issues in frontend (react.js + next.js) ",
-        "description4": "- Dapps/ DEFI platform for Staking / Yield farm / Lending & borrowing system / NFT marketplace / Crypto Game(play to earn), DAO, DEX fork, Auto trading Bot / Snipping Bot(Front-run, Arbitrage) "
+        "company": "Cubix",
+        "years": "Dec 2019 - Jan 2022",
+        "description1": "- Built multiple decentralized applications on the variety Blockchain platforms, including a decentralized exchange (DEX) and a supply chain tracking application.",
+        "description2": "- Developed a decentralized application (dApp) using Ethereum Blockchain and Solidity programming language. The dApp enabled secure peer-to-peer transactions and was integrated with an off-chain payment gateway.",
+        "description3": "- Implemented various types of smart contracts such as multi-signature wallets, automated market makers and token issuance contracts using Solidity, Rust and Go.",
+        "description4": "- Built NFT minting sites, marketplaces, staking sites including ERC-721, ERC-1155 and integrated NFTs with dApps.",
+        "description5": "- Implemented consensus algorithms such as PoW and PoS and developed the tokenomics for a new cryptocurrency project, including designing the token model and creating an economic model to determine the initial token distribution and incentives."
       },
       {
-        "company": "CONVRTX",
-        "title": "Full Stack Developer ",
-        "years": "February 2015 - June 2017",
-        "description1": "I’ve built Mobile Applications, Ecommerce website, real estate website, Education website, Betting Website, Job website, and so on… Completed course on front-end web development that involved deploying real interactive apps that make API calls and fetch data based on user input. Also involved functional programming and game development in client side applications."
+        "title": "Software Developer",
+        "company": "ConvrtX",
+        "years": "Nov 2017 - Nov 2019",
+        "description1": "- Collaborated with a team of developers to build a cloud-based software solution using AWS and Azure platforms. The project involved implementing an agile development methodology and continuous integration and deployment (CI/CD) pipeline for faster releases.",
+        "description2": "- Developed internal utilities and tools for quick and easy work with the user database. Part of them was included in the administration part of the application.",
+        "description3": "- Designed and developed a mobile application for a startup using React Native framework. The app received positive feedback from users and was featured on the App Store and Google Play Store.",
+        "description4": "- Collaborated with QA engineers to test and debug web applications to ensure that they meet quality standards and perform optimally across multiple browsers and devices.",
+        "description5": "- Built a web-based e-commerce platform for a small business using Shopify and WordPress platforms."
       },
       {
-        "company": "OPENCONCEPT CONSULTING INC.",
-        "title": "Software Engineer and Web Site Designer",
-        "years": "May 2014 - January 2015",
-        "description1": "- I worked in Artificial Intelligence, custom software development, enterprise app modernization.",
-        "description2": "- Done lots of Research tasks given by my Boss.",
-        "description3": "- Done various website design with Html and CSS."
+        "title": "Senior Front-end Developer",
+        "company": "Rikkeisoft",
+        "years": "Feb 2015 - Jun 2017",
+        "description1": "- Created a React front-end admin dashboard for complex table data visualization with user-friendly search features.",
+        "description2": "- Made a mobile version for an already existing website suitable for all platforms and browsers.",
+        "description3": "- Designed a notification utility that can be used for drafting, scheduling, or executing any kind of notification along with Webhooks for a client's custom implementation.",
+        "description4": "- Led the front-end development of a education software product using React and Redux frameworks.",
+        "description5": "- Worked closely with back-end developers to ensure seamless integration and optimal user experience. Developed APIs and implemented front-end caching mechanisms to improve performance and reduce server load.",
+        "description6": "- Collaborated with UX designers to ensure that web designs are translated into user-friendly and responsive web pages. Developed reusable and modular components and implemented design systems to ensure consistency across the website."
+      },
+      {
+        "title": "Junior Web Developer",
+        "company": "OpenConcept Consulting INC.",
+        "years": "Feb 2014 - Jan 2015",
+        "description1": "- Worked with other React developers to build user interfaces and components using React, Redux, and other modern front-end technologies.",
+        "description2": "- Worked on the front-end development of a website using a CMS such as WordPress or Shopify. Developed custom themes, implemented plugins, and ensured website performance.",
+        "description3": "- Conducted research on emerging web technologies and provided recommendations on how to incorporate them into web development projects.",
+        "description4": "- Developed and maintained code repositories using Git for version control, ensuring that code is properly documented and organized.",
+        "description5": "- Worked with UX designers to ensure that web designs are translated into user-friendly and responsive web pages.",
+        "description6": "- Built small-scale web projects such as landing pages, microsites, or email templates."
       }
     ],
     "skills": [
@@ -142,10 +179,10 @@
   "portfolio": {
     "projects": [
       {
-        "title": "Peaceswap",
-        "category": "Pancakeswap fork",
-        "image": "peaceswap.PNG",
-        "url": "https://peaceswap.com"
+        "title": "Luuna",
+        "category": "Ecommerce system",
+        "image": "luuna.PNG",
+        "url": "https://luuna.mx/"
       },
       {
         "title": "Ecodollar",
@@ -154,22 +191,34 @@
         "url": "https://ecodollar.org/"
       },
       {
+        "title": "Practiceplaygrow",
+        "category": "Education web site",
+        "image": "practiceplaygrow.PNG",
+        "url": "https://practiceplaygrow.com/"
+      },
+      {
+        "title": "Homeunion",
+        "category": "Real estate investment site",
+        "image": "homeunion.PNG",
+        "url": "hhttps://www.homeunion.com/"
+      },
+      {
         "title": "Crypstarter",
         "category": "Olympus DAO fork",
         "image": "crypstarter.PNG",
         "url": "http://app.crypstarter.finance/"
       },
       {
-        "title": "Mtvpunks",
-        "category": "MTV punk NFT site",
-        "image": "mtvpunks.PNG",
-        "url": "https://mtvpunks.com"
+        "title": "Peaceswap",
+        "category": "Pancakeswap fork",
+        "image": "peaceswap.PNG",
+        "url": "https://peaceswap.com"
       },
       {
-        "title": "Luuna",
-        "category": "Ecommerce system",
-        "image": "luuna.PNG",
-        "url": "https://luuna.mx/"
+        "title": "CYOP",
+        "category": "Crypto investment protocol website",
+        "image": "cyop.PNG",
+        "url": "https://cyop.io"
       },
       {
         "title": "Medabots",
@@ -184,6 +233,18 @@
         "url": "http://www.pliantinc.com/"
       },
       {
+        "title": "Rakabdar",
+        "category": "Marketplace mobile application",
+        "image": "rakabdar.png",
+        "url": "https://play.google.com/store/apps/details?id=com.rakabdar.customer"
+      },
+      {
+        "title": "Knowland",
+        "category": "Insights, TargetNet & RS360 main module",
+        "image": "knowland.png",
+        "url": "https://www.knowland.com/"
+      },
+      {
         "title": "Resume",
         "category": "My resume with React template",
         "image": "resume.PNG",
@@ -194,12 +255,28 @@
   "testimonials": {
     "testimonials": [
       {
-        "text": "I have had the opportunity to work with Jordan on multiple occasions which has always been a pleasure. He is driven and motivated with a consistently positive attitude. Jordan excels at communicating with others and is always willing to work hard until he solves the problem at hand.",
-        "user": "Kareem Abdul Jabbar"
+        "name": "Certified Front-End Web Developer",
+        "date": "05/2016",
+        "description_1": "Issued by Free Code Camp.",
+        "description_2": "This certification validates proficiency in HTML, CSS, JavaScript, and other front-end web technologies, including responsive design, accessibility, and user experience."
       },
       {
-        "text": "That Jordan Nervin must be one of the most brilliant developers I've ever met! It is amazing that nobody has hired him yet. Hey you, you should hire this guy, he may be fresh out of University and have zero on the job experience but I am confident that he will be one of your best developers in no time!",
-        "user": "Steve Wozniak... impersonator"
+        "name": "Certified Professional in Web Accessibility (CPWA)",
+        "date": "02/2019",
+        "description_1": "Issued by International Association of Accessibility Professionals (IAAP).",
+        "description_2": "This certification validates knowledge and expertise in web accessibility standards and guidelines, including WCAG 2.0 and Section 508 compliance."
+      },
+      {
+        "name": "Certified Information Systems Security Professional (CISSP)",
+        "date": "10/2019",
+        "description_1": "Issued by International Information Systems Security Certification Consortium (ISC)².",
+        "description_2": "This certification validates knowledge and expertise in information security, including topics such as access control, cryptography, network security, and software development security."
+      },
+      {
+        "name": "Hyperledger Fabric Developer (HFD)",
+        "date": "08/2021",
+        "description_1": "Issued by Linux Foundation.",
+        "description_2": "This certification validates my skills in developing applications on the Hyperledger Fabric Blockchain, including chaincode development, network setup, and operations."
       }
     ]
   }
